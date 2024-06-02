@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+.signin-page,.signup{
+  width: 400px;
+  margin: 100px auto;
+}
+.form-field{
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.error{
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+  left: 97px;
+  color: tomato;
+}
+
+input[type="text"]{
+  padding: 8px 20px;
+  border-radius: 5px;
+  border:1px solid gray;
+}
+
+.login-btn{
+  background-color: #005B41;
+  color: #fff;
+  border-radius: 5px;
+  transition: .4s;
+  padding: 8px 20px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.login-btn:hover{
+  background-color: #008170;
+}
